@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font: 16px/1.5 system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: dark;
+}
+
+body {
+  background: linear-gradient(160deg, #0b1426 0%, #1a3a5c 55%, #1e4976 100%);
+  background-attachment: fixed;
+  min-height: 100svh;
+  color: #f0f9ff;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  color: #f0f9ff;
+}
+
+p {
+  margin: 0;
+}
