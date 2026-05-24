@@ -346,6 +346,27 @@
   color: #64748b;
 }
 
+.current-weather--feedback {
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+}
+
+.feedback-text {
+  font-size: 15px;
+  color: #94a3b8;
+}
+
+.feedback-text--error {
+  color: #f87171;
+}
+
+.forecast-section--loading {
+  opacity: 0.4;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
 .footer {
   background: rgba(11, 20, 38, 0.7);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
